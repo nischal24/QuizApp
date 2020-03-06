@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oldpaper"
+    tools:context=".EasyQuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="20dp"
+            />
+        <!-- Question 1 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What is Pending Intent in android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" It is a kind of an intent"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" It is used to pass the data between activities"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+            <RadioButton
+                android:id="@+id/AThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  It will fire at a future point of time."
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  None of the Above"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+
+        </RadioGroup>
+
+        <!-- Question 2 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. What are the layouts available in android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/num_two_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linear Layout"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frame Layout"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Table Layout"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:id="@+id/BFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All of above"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+        </RadioGroup>
+
+        <!-- Question 3 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. How many orientations does android support?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp"
+            android:hint="Please enter your answer"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"/>
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. What is the use of content provider in android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/DOne_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To send the data from an application to another application"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/DTwo_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To store the data in a database"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/DThree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To share the data between applications"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/DFour_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:text="None of the above"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Which permissions are required to get a location in android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/num_five_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACCESS_FINE and ACCESS_COARSE"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPRS permission"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internet permission"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:id="@+id/EFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WIFI permission"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="16dp"
+            android:text="Submit"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+

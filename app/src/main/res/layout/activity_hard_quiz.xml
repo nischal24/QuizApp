@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oldpaper"
+    tools:context=".HardQuizActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="20dp"
+            />
+        <!-- Question 1 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Which company developed android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/hard_num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <RadioButton
+                android:id="@+id/hard_AOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Android Inc."
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Google"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Nokia"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Apple"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+
+        </RadioGroup>
+
+        <!-- Question 2 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Which company bought android?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/hard_num_two_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Company"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:id="@+id/hard_BThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nokia"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+        </RadioGroup>
+
+        <!-- Question 3 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Web browser available in android is based on"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+        <RadioGroup
+            android:id="@+id/hard_num_three_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrome"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:id="@+id/hard_CTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open-source Webkit"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FireFox"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opera"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+        </RadioGroup>
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Android is based on which kernel?"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/hard_DOne_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linux Kernel"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/hard_DTwo_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Windows Kernel"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/hard_DThree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mac Kernel"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/hard_DFour_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:text="Hybrid Kernel"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Android doesn't support which format."
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/hard_num_five_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MP4"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MPEG"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:id="@+id/hard_EThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVI"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MIDI"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/hard_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="18dp"
+            android:text="Submit"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
